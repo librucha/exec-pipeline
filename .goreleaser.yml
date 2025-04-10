@@ -4,6 +4,9 @@
 version: 2
 
 project_name: exec-pipeline
+before:
+  hooks:
+    - go mod tidy
 builds:
   - skip: true
 archives:
@@ -18,3 +21,5 @@ release:
     name: exec-pipeline
 changelog:
   use: git
+signs:
+  - artifacts: all
