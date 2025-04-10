@@ -15,6 +15,6 @@ checksum:
 release:
   github:
     owner: librucha
-    name: https://github.com/librucha/exec-pipeline
+    name: exec-pipeline
 changelog:
   use: git
