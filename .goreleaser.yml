@@ -19,6 +19,7 @@ release:
   github:
     owner: librucha
     name: exec-pipeline
+  prerelease: auto
 changelog:
   use: git
 signs:
